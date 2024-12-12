@@ -1,0 +1,171 @@
+/* no specific pallete used. I found the colors I wanted from https://coolors.co/ */
+  
+  body {
+      font-family: 'Delius Swash Caps';
+      background: #588157;
+      color: #333;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      position: relative;
+  }
+
+
+
+  .delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  /* Optional: Adjust Carousel Height */
+.carousel-item img {
+  height: 800px;   
+  object-fit: cover;  
+}
+
+  
+  
+  /* Header & Footer Styling */
+  header, footer {
+      background: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+  }
+  
+  header {
+      font-size: 1.8em;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+  #list {
+    text-decoration: underline;
+  }
+  
+  footer {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+  }
+  
+  /* Logo */
+  .logo, h1 {
+      font-family: 'Delius Swash Caps', cursive;
+      font-size: 3em;
+      color: white;
+      text-align: center;
+      margin-bottom: 0.5em;
+  }
+  
+  /* Navigation */
+  nav a {
+    font-family: 'Delius Swash Caps';
+    font-size: 1.5em;
+    color: white;
+    text-decoration: wavy;
+    padding: 0.5em 1em;
+  }
+
+  nav a:hover {
+    color: #588157;
+  }
+  
+  
+  
+  /* Main Content */
+  main {
+   position: relative;
+   text-align: center;
+   padding: 2em;
+  }
+
+  .cat-row {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      margin-bottom: 2em;
+  }
+  
+  .cat-row img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+  }
+  
+  .profilepic {
+     width: 400px;
+     height: 400px;
+     display: flex;
+     
+     margin-left: 65px;
+  
+  }
+  
+
+   .text-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1em;
+    border: 2px solid #333;
+    background: white;
+    font-size: 1em;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+    width: fit-content; 
+    max-width: 600px;
+    height: auto;
+
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  /* Contact Form */
+  label[for="name"],
+  label[for="address"],
+  label[for="phone"],
+  label[for="email"] {
+    color: white;
+  }
+
+  .form {
+    margin-top: 20px;
+  }
+ 
+    
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    color: white;
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 0.75em;
+    text-align: left;
+    color: white;
+  } 
+
+
+ .cat-meowing {
+  width: 150px;
+  height: auto;
+  border-radius: 25%;
+  margin: 1em auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
